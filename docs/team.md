@@ -1,9 +1,14 @@
 # Our Team
 
-![Matthew](https://static.igem.wiki/teams/4849/wiki/ged.jpg)
+![Dev](team_photos/DK.jpg)
 
-![Karen](https://static.igem.wiki/teams/4849/wiki/kl.jpg)
+![Ed](team_photos/EE.jpg)
 
-![Will](https://static.igem.wiki/teams/4849/wiki/wg.jpg)
+![Gabriel](team_photos/GED.jpg)
 
-![Gabriel](https://static.igem.wiki/teams/4849/wiki/mw.jpg)
+![Karen](team_photos/KL.jpg)
+
+![Matthew](team_photos/MW.jpg)
+
+![Will](team_photos/WG.jpg)
+
