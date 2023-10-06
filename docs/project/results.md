@@ -13,7 +13,7 @@ A volume of 10 μl from the stained cyanobacterial media was carefully mounted o
 **PHB production test with Nile Red**
 The PHB production test for Synechococcus PCC 11901 and Synechocystis PCC6803 involved fluorescent microscopy after Nile red staining, a lipophilic stain commonly used to identify intracellular neutral lipid droplets, including PHB. Both strains were stained to determine if Synechococcus PCC 11901 naturally produces PHB, with Synechocystis PCC6803 as a control. The staining protocol, validated with Synechocystis PCC6803, aimed to screen the native PHB capability in Synechococcus PCC11901. It was expected that PHB would form intracellular granules.
 
-![g_block](https://raw.githubusercontent.com/idec-teams/2023_Edinburgh/main/team_photos/micro.jpg)
+![micro](https://raw.githubusercontent.com/idec-teams/2023_Edinburgh/main/figures/micro.jpg)
 
 *Figure 3: Fluorescent microscopy images of Synechocystis PCC6803 after Nile red staining. Synechocystis PCC6803 were stained by Nile red and visualized by Brightfield(left) and fluorescent microscopy(right).*
 
