@@ -1,14 +1,14 @@
 # Our Team
 
-![Dev](team_photos/DK.jpg)
+![Dev](https://raw.githubusercontent.com/idec-teams/2023_Edinburgh/main/team_photos/DK.jpg)
 
-![Ed](team_photos/EE.jpg)
+![Ed](https://raw.githubusercontent.com/idec-teams/2023_Edinburgh/main/team_photos/EE.jpg)
 
-![Gabriel](team_photos/GED.jpg)
+![Gabriel](https://raw.githubusercontent.com/idec-teams/2023_Edinburgh/main/team_photos/GED.jpg)
 
-![Karen](team_photos/KL.jpg)
+![Karen](https://raw.githubusercontent.com/idec-teams/2023_Edinburgh/main/team_photos/KL.jpg)
 
-![Matthew](team_photos/MW.jpg)
+![Matthew](https://raw.githubusercontent.com/idec-teams/2023_Edinburgh/main/team_photos/MW.jpg)
 
-![Will](team_photos/WG.jpg)
+![Will](https://raw.githubusercontent.com/idec-teams/2023_Edinburgh/main/team_photos/WG.jpg)
 
