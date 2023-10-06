@@ -4,7 +4,7 @@
 
 
 
-## PHA
+## PHB
 
 Conventional photovoltaic panels can only capture light energy but currently have no scalable means to store this energy. In contrast, living biophotovoltaic systems which use photosynthetic cyanobacteria are capable of both capturing and storing energy in the form of carbohydrates and other polymers. This process can further sequester or cycle carbon dioxide, helping to make our solar panel carbon negative.
 

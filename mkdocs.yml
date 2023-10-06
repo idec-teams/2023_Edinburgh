@@ -43,8 +43,10 @@ nav:
   - Team: team.md
   - Project:
       - Background: project/background.md
+      - Design: project/design.md
       - Results: project/results.md
   - Documentation:
       - Protocols: documentation/protocols.md
       - Lab notebook: documentation/notebook.md
+      - Supplementary Material: documentation/supplementary_material.md
   - Some useful features: useful_features.md

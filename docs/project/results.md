@@ -2,7 +2,7 @@
 
 ## Salinity Resistance
 
-## PHA
+## PHB
 
 **Nile Red Staining Procedure**
 A volume of 100 μl of wild-type Synechocystic and Synechococcus cells, along with their respective culture media, underwent centrifugation at 1000xg for 1 minute. Subsequently, 80 μl of the supernatant was carefully removed. The pelleted cells were resuspended in a final volume of 20 μl. Following resuspension, the cells were stained with 0.3 μl of Nile Red solution (1.0 μg/ml in ethanol), and an additional 100 μl of 0.9% (w/v) NaCl was introduced. The entire cell population was then incubated in a darkened environment within a cupboard overnight to facilitate optimal staining conditions.
