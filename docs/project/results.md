@@ -24,7 +24,6 @@ The Effect Salt Concentration on *E coli.* Doubling Times
 | 4.5 | 2.35 | 
 | 5.0 | 3.85 | 
 | 5.5 | 2.27 | 
-
 *Table 1 - Doubling Times of Salty E.coli Cultures at 6 hours. Doubling times were calculated using the formula     Dt = hours/ log2( final OD600/ Initial OD600)*
 
 **stpA level T**
