@@ -45,6 +45,7 @@ nav:
       - Background: project/background.md
       - Design: project/design.md
       - Results: project/results.md
+      - PHB: project/phb.md
   - Documentation:
       - Protocols: documentation/protocols.md
       - Lab notebook: documentation/notebook.md
