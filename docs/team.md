@@ -9,7 +9,7 @@
 
 **Degree:** BSc Biological Sciences (Hons in Biotechnology)
 
-**Lab Pet Peeve:** WHen someone leaves teh PCR machine on, which I just did...
+**Lab Pet Peeve:** When someone leaves teh PCR machine on, which I just did...
 
 ![Ed](https://raw.githubusercontent.com/idec-teams/2023_Edinburgh/main/team_photos/EE.jpg)
 **Edvardas Eigminas**
