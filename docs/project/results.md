@@ -1,8 +1,6 @@
 # Results
 
-## Salinity Resistance
-
-Salt growth curve of BL21 (DE3) cells
+## Salt growth curve of BL21 (DE3) cells
 
 In order to determine the level of growth and salt tolerance in Escherichia coli BL21 (DE3), a growth curve was made, incubating the E.coli in various concentrations of NaCl in LB media. 29ml LB media was inoculated with 1ml overnight culture of E.coli and the initial OD600 was measured. This was then followed by measurements taking 1ml of media every hour for 6 hours. 1% salt has been removed as the initial OD600 was significantly higher than those of the others, which may have affected the results.  The results showed a significant decrease in growth after 6 hours of the E.coli BL21 after 3% NaCl (w/v) LB (Figure 1).  The doubling time of the E.coli can be seen to steadily increase until 3.5% where the doubling time begins to increase significantly as the concentration of salt in the medium rises (Table 1). The E.coli grown in 0.5% salt (no additional salt), grew at the fastest rate for the first 5 hours with a doubling time of 1.05 hours in comparison to 1.5% salt with a doubling time of 1.09 hours, however more testing would be necessary to determine if this difference is due to increased salt in the medium. The E.coli grown at 0.5% then saw a decline between hours 5 and 6, which was not mirrored in other cultures at different concentrations. However, a decline before recover had been seen in other cultures, such as 3.5% in hour 5. 
 
@@ -24,9 +22,10 @@ The Effect Salt Concentration on *E coli.* Doubling Times
 | 4.5 | 2.35 | 
 | 5.0 | 3.85 | 
 | 5.5 | 2.27 | 
+
 *Table 1 - Doubling Times of Salty E.coli Cultures at 6 hours. Doubling times were calculated using the formula     Dt = hours/ log2( final OD600/ Initial OD600)*
 
-**stpA level T**
+## stpA level T
 
 Due to being unsuccessful in extracting purified stpA gene from genomic DNA, a gene block was designed to be inserted into a cyanogate level T vector with correct cut sites and overhangs for an assembly reaction wherein the restriction enzyme bbsI would cut the gene block revealing sticky ends which could then be ligated into the level T vector. A level T recation was conducted and the reaction product was transformed into TOP10 cells which were then spread onto XGAL-IPTG plates for blue/white selection. White colonies were then picked and colony PCR was conducted to confirm successful transformation. The PCR product was then run on 1% agarose gel and the gel was analysed using a UV imager (Figure 2). The results showed bands of the expected size across the white colonies indicating that the plasmid had been successfully constructed and transformed.
 
@@ -34,9 +33,9 @@ Due to being unsuccessful in extracting purified stpA gene from genomic DNA, a g
 
 *Figure 2 -  Imaged Agarose gel electrophoresis. Colony PCR was performed generating bands at the expected positions between 1.5 and 2kb.*
 
-**Mutant Library Generation**
+## Mutant Library Generation
 
-The ggpS gene was extracted from synechocystis sp. PCC 6803 by PCR from genomic DNA. The gene was then purified by gel extraction and ligated in an assembly reaction into the cyanogate level 0 backbone. A further digestion and ligation was performed in order to assemble the gene along with the constitutive promoter ptrc10, which functions in both synechocystis as well as E.coli and the terminator pC0.082. This level 1 assembly was then transformed into E.coli TOP10 cells and confirmed by colony PCR and digestion. However the final plasmid was found to be around 1kb larger than anticipated (Figure 3). Nevertheless, the correct band sizes indicating that ggpS has been successfully ligated into the level 1 vector and transformed were present. The decision was then made to proceed with error prone PCR using ggpS in this backbone.
+The ggpS gene was extracted from *Synechocystis* sp. PCC 6803 by PCR from genomic DNA. The gene was then purified by gel extraction and ligated in an assembly reaction into the cyanogate level 0 backbone. A further digestion and ligation was performed in order to assemble the gene along with the constitutive promoter ptrc10, which functions in both *Synechocystis* as well as E.coli and the terminator pC0.082. This level 1 assembly was then transformed into E.coli TOP10 cells and confirmed by colony PCR and digestion. However the final plasmid was found to be around 1kb larger than anticipated (Figure 3). Nevertheless, the correct band sizes indicating that ggpS has been successfully ligated into the level 1 vector and transformed were present. The decision was then made to proceed with error prone PCR using ggpS in this backbone.
 
 ![ggps_plate](https://raw.githubusercontent.com/idec-teams/2023_Edinburgh/main/figures/ggps_gel.jpg)
 
