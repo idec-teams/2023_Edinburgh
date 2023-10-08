@@ -1,8 +1,111 @@
 # Supplementary Material
 
+## Salinity Resistance
 
+**Escherichia coli BL21 (DE3) growth curve Raw Data**
 
-| Part Name | Due Date   | 
+| Hour | % NaCl in LB media (w/v) | Triplicate 1 | Triplicate 2 | Triplicate 3 | Mean Value |
+| ---- | ----------------------- | ------------ | ------------ | ------------ | ---------- |
+| 0    | 0.5                     | 0.044        | 0.045        | 0.045        | 0.045      |
+|      | 1.0                     | 0.084        | 0.084        | 0.084        | 0.084      |
+|      | 1.5                     | 0.044        | 0.044        | 0.045        | 0.044      |
+|      | 2.0                     | 0.045        | 0.045        | 0.045        | 0.045      |
+|      | 2.5                     | 0.049        | 0.049        | 0.049        | 0.049      |
+|      | 3.0                     | 0.055        | 0.055        | 0.055        | 0.055      |
+|      | 3.5                     | 0.058        | 0.058        | 0.058        | 0.058      |
+|      | 4.0                     | 0.047        | 0.047        | 0.047        | 0.047      |
+|      | 4.5                     | 0.052        | 0.053        | 0.052        | 0.052      |
+|      | 5.0                     | 0.054        | 0.054        | 0.054        | 0.054      |
+|      | 5.5                     | 0.053        | 0.053        | 0.053        | 0.053      |
+|      | 6.0                     | 0.052        | 0.056        | 0.056        | 0.053      |
+| 1    | 0.5                     | 0.122        | 0.122        | 0.132        | 0.125      |
+|      | 1.0                     | 0.232        | 0.231        | 0.235        | 0.233      |
+|      | 1.5                     | 0.100        | 0.106        | 0.117        | 0.107      |
+|      | 2.0                     | 0.088        | 0.099        | 0.099        | 0.093      |
+|      | 2.5                     | 0.093        | 0.094        | 0.089        | 0.092      |
+|      | 3.0                     | 0.090        | 0.093        | 0.087        | 0.090      |
+|      | 3.5                     | 0.069        | 0.070        | 0.074        | 0.071      |
+|      | 4.0                     | 0.069        | 0.069        | 0.069        | 0.069      |
+|      | 4.5                     | 0.042        | 0.042        | 0.042        | 0.042      |
+|      | 5.0                     | 0.058        | 0.078        | 0.063        | 0.066      |
+|      | 5.5                     | 0.049        | 0.047        | 0.047        | 0.047      |
+|      | 6.0                     | 0.049        | 0.049        | 0.057        | 0.052      |
+| 2    | 0.5                     | 0.363        | 0.353        | 0.320        | 0.345      |
+|      | 1.0                     | 0.484        | 0.544        | 0.566        | 0.531      |
+|      | 1.5                     | 0.307        | 0.332        | 0.311        | 0.317      |
+|      | 2.0                     | 0.237        | 0.248        | 0.253        | 0.246      |
+|      | 2.5                     | 0.220        | 0.245        | 0.188        | 0.218      |
+|      | 3.0                     | 0.176        | 0.177        | 0.155        | 0.169      |
+|      | 3.5                     | 0.158        | 0.166        | 0.139        | 0.154      |
+|      | 4.0                     | 0.104        | 0.121        | 0.111        | 0.112      |
+|      | 4.5                     | 0.078        | 0.073        | 0.074        | 0.075      |
+|      | 5.0                     | 0.076        | 0.076        | 0.076        | 0.076      |
+|      | 5.5                     | 0.056        | 0.068        | 0.041        | 0.055      |
+|      | 6.0                     | 0.048        | 0.048        | 0.049        | 0.048      |
+| 3    | 0.5                     | 0.681        | 0.666        | 0.705        | 0.664      |
+|      | 1.0                     | 0.806        | 0.837        | 0.964        | 0.869      |
+|      | 1.5                     | 0.582        | 0.605        | 0.574        | 0.587      |
+|      | 2.0                     | 0.570        | 0.540        | 0.518        | 0.628      |
+|      | 2.5                     | 0.503        | 0.503        | 0.487        | 0.497      |
+|      | 3.0                     | 0.329        | 0.467        | 0.444        | 0.413      |
+|      | 3.5                     | 0.319        | 0.379        | 0.256        | 0.318      |
+|      | 4.0                     | 0.233        | 0.278        | 0.198        | 0.236      |
+|      | 4.5                     | 0.151        | 0.137        | 0.137        | 0.142      |
+|      | 5.0                     | 0.118        | 0.130        | 0.135        | 0.128      |
+|      | 5.5                     | 0.078        | 0.056        | 0.061        | 0.065      |
+|      | 6.0                     | 0.060        | 0.061        | 0.061        | 0.061      |
+| 4    | 0.5                     | 0.881        | 0.911        | 0.927        | 0.906      |
+|      | 1.0                     | 1.034        | 1.060        | 1.201        | 1.101      |
+|      | 1.5                     | 0.894        | 0.872        | 0.933        | 0.901      |
+|      | 2.0                     | 0.837        | 0.775        | 0.807        | 0.806      |
+|      | 2.5                     | 0.813        | 0.779        | 0.788        | 0.793      |
+|      | 3.0                     | 0.763        | 0.794        | 0.771        | 0.776      |
+|      | 3.5                     | 0.563        | 0.672        | 0.317        | 0.517      |
+|      | 4.0                     | 0.228        | 0.554        | 0.234        | 0.389      |
+|      | 4.5                     | 0.306        | 0.339        | 0.263        | 0.303      |
+|      | 5.0                     | 0.195        | 0.186        | 0.178        | 0.186      |
+|      | 5.5                     | 0.137        | 0.126        | 0.126        | 0.130      |
+|      | 6.0                     | 0.079        | 0.096        | 0.087        | 0.087      |
+| 5    | 0.5*                    | 0.128        | 0.116        | 0.122        | 1.22       |
+|      | 1.0*                    | 0.132        | 0.146        | 0.160        | 1.46       |
+|      | 1.5*                    | 0.104        | 0.103        | 0.111        | 1.060      |
+|      | 2.0                     | 0.997        | 1.022        | 0.952        | 0.990      |
+|      | 2.5                     | 0.934        | 0.923        | 0.963        | 0.990      |
+|      | 3.0                     | 1.015        | 1.027        | 0.963        | 1.001      |
+|      | 3.5                     | 0.584        | 0.585        | 0.309        | 0.492      |
+|      | 4.0                     | 0.159        | 0.648        | 0.122        | 0.309      |
+|      | 4.5                     | 0.205        | 0.456        | 0.303        | 0.321      |
+|      | 5.0                     | 0.177        | 0.200        | 0.261        | 0.212      |
+|      | 5.5                     | 0.245        | 0.236        | 0.227        | 0.236      |
+|      | 6.0                     | 0.110        | 0.129        | 0.106        | 0.115      |
+| 6    | 0.5*                    | 0.105        | 0.128        | 0.109        | 1.14       |
+|      | 1.0*                    | 0.168        | 0.168        | 0.178        | 1.713      |
+|      | 1.5*                    | 0.129        | 0.137        | 0.122        | 1.293      |
+|      | 2.0                     | 1.148        | 1.102        | 1.113        | 1.121      |
+|      | 2.5                     | 1.130        | 1.160        | 1.146        | 1.145      |
+|      | 3.0                     | 1.131        | 1.073        | 1.032        | 1.074      |
+|      | 3.5                     | 0.834        | 0.893        | 0.596        | 0.724      |
+|      | 4.0                     | 0.223        | 0.735        | 0.096        | 0.357      |
+|      | 4.5                     | 0.203        | 0.607        | 0.107        | 0.305      |
+|      | 5.0                     | 0.197        | 0.133        | 0.149        | 0.159      |
+|      | 5.5                     | 0.387        | 0.348        | 0.331        | 0.355      |
+|      | 6.0                     | 0.189        | 0.240        | 0.179        | 0.202      |
+
+*Table 1) Escherichia coli BL21 (DE3) growth curve in various salt concentrations in LB. E.coli BL21 were inoculated from overnight culture in triplicate into LB media with various salt concentrations. These were then incubated at 250rpm in 37°C and samples were taken and the OD600 measured every 1 hour. Cultures with an OD600 significantly above 1 were diluted 10 fold and their mean value calculated by multiplying by 10, these are indicated by *.*
+
+**Sequences**
+
+| Part Name | Sequence   | 
+| ------ | ---------- | 
+| stpa Gene Block sequence   | CAGT**GAAGAC**AT*TGCC*GGAGTTGACAATTAATCATCCGGCTCGTATAATGTGTGGAATTGTGAGCGGATAACAATTTCACACATACTAGAGAAAGAGGAGAAATACTAAATGGTATTACACCAACAACGTTTCTCCCTCGACCATGGAGCTTTTTGTCAAACCTTAGCCCAAACTGAAAATTTACTCATTGTCCAAGACTTGGATGGGGTCTGCATGGAATTAGTGCAAGATCCCCTCAGTCGCCGCCTGGATGCCGATTATGTCCGGGCCACCACCCTGTTTGCTGAACATTTTTACGTGTTGACCAATGGGGAGCACGTGGGAAAAAGAGGAGTACAGGGCATTGTGGAACAATCCTTTGGGGATGCTTCCTTTGTGCAACAGGAAGGCCTATATTTGCCCGGTTTGGCGGCCGGGGGAGTGCAGTGGCAGGATCGCCATGGCAAAGTAAGTCATCCTGGAGTGGGGCAAACGGAGCTGGAGTTTTTAGCGGCGGTGCCCGAAAAAATCACTAATTGTTTAAAAACCTTTTTTGGCGATCGCCCCCATTCCCTATCCCCAGAGCAATTACAAACGGGCATTGAAGCTTCGGTTTTAGATAATGTGGCTTCCCCCACCGCCAATTTAAATACCTTGGCCAATCTGTTACAAGACTTTCCGCAAATTTACCGAGATTTGCAGGAAACCATGGCTCAATTATTGGATCAGTTGATGGCGGAAGCCGTTGCCCAGGGTTTGGGGAATAGTTTTTTTGTCCACTATGCTCCCAATTTAGGTAGGGATGAACGAGGTAAGGAAATTATTCGTTGGGCCAAAGCTGGGGATTCCGGCACCACCGATTTTCAATTTATGTTGCGGGGTGGGGTCAAAGAAGCCGGGGTTTTGGCTTTGCTAAATCGTTACTATCACAATCGGACAGGGCAATATCCTCTGGGAGAAAGTTTTAGTGCTCGCCAAGCGCCCCCATCCCACCAGGACTTGTTGCATTTGGTGAAAGCGCAATTTGATCCGGCCTTGATGCCGCTGATCATTGGAGTTGGGGATACGGTCACCAGTCAGGTGGATGAAGCTACCGGGGAAATTCGACGTGGCGGGAGCGATCGCCAATTTTTGCAATTAATCCAAGATTTGGGGGATTGGGGAAATCACGGTAACTTAGTGGTGTATGTGGACAGTTCCCAGGGGGAGGTGAAAAATCGCCAACCTCTACAACTAGAAACCGTGGCGGGGCAAACCCAAGTGGTGGCTGGCCCTGGGGATATGCGGGACAGGGAAGAGCCATTGAAGATCAATGTGGCTTTTCCTGGTGGCCATGACCAATATGTAGCGGCGTTTAAGCAGGCGGCCCAGCGCCGAAGAGTCCATTTTTCCCAGTAGTTATGGTGGGCTTCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTCTACTAGAGTCACACTGGCTCACCTTCGGGTGGGCCTTTCTGCGCGCTGCAATGAGACCGAGGATGCACATGTGACCGA*GGGA*TA**GTCTTC**TGAC |
+
+*Shows the sequence of the stpa gene block. Overhangs are in italics. Recognition sites are in bold*
+
+## PHB
+
+**Sequences**
+
+| Part Name | Sequence   | 
 | ------ | ---------- | 
 | Hybrid Promotor phaCAB Assembly  | aatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgttttcccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcgggcttcccatacaatcgatagattgtcgcacctgattgcccgacattatcgcgagcccatttatacccatataaatcagcatccatgttggaatttaatcgcggcctggagcaagacgtttcccgttgaatatggctcataacaccccttgtattactgtttatgtaagcagacagttttattgttcatgatgatatatttttatcttgtgcaatgtaacatcagagattttgagacacaacgtggctttgttgaataaatcgaacttttgctgagttgaaggatcagctcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgcggccgcttctagagactagtggaagacatGGAGttgacagctagctcagtcctaggtattgtgctagctactagagaaagaggagaaatactagaggattcccgcattgacagcgcgtgcgttgcaaggcaacaatggactcaaatgtctcggaatcgctgacgattcccaggtttctccggcaagcatagcgcatggcgtctccatgcgagaatgtcgcgcttgccggataaaaggggagccgctatcggaatggacgcaagccacggccgcagcaggtgcggtcgagggcttccagccagttccagggcagatgtgccggcagaccctcccgctttgggggaggcgcaagccgggtccattcggatagcatctccccatgcaaagtgccggccagggcaatgcccggagccggttcgaatagtgacggcagagagacaatcaaatcatggctactgggaaaggagccgccgccagcacccaggaaggcaaaagccaaccatttaaagtgaccccaggcccgttcgatcctgccacctggctggaatggtcacgtcaatggcaaggtacggagggcaacggccatgcggcagcgtccggcatccctgggcttgatgcactggctggtgttaaaattgcgcctgcccaattgggagacatccaacagcgttatatgaaagatttttcggcgctgtggcaggcgatggcggaaggtaaagcagaggcgacgggaccgctgcatgaccgtcgctttgctggcgacgcctggcgtaccaatttgccctatcgttttgcggcagccttctacctgctgaacgctcgtgccctgactgagctggcagatgctgtcgaagcggatgccaaaacccgccaacgcatccgttttgccatctcacagtgggtcgacgcaatgtcaccggccaacttcctggccaccaatccggaagcacagcgcctcctgattgaaagcggcggggaatcgctgcgcgccggcgttcgtaacatgatggaagatctgacccgtggtaagatttcgcagacggatgagtcggccttcgaggtgggtcgcaatgttgcagtgacagaaggcgcggtggtgtttgagaacgaatactttcaacttctccagtataaaccactgacggataaagtgcatgcgcgcccattgttaatggttcccccgtgcattaataaatactatatcctggatcttcagccggaaagctccttagtgcgccacgtggtggaacaggggcatactgtgtttttagttagctggcgcaatccagatgcctcaatggccggcagtacctgggatgactacattgaacacgcggctattcgcgcgatcgaagtggcacgcgacatctcaggtcaggacaagattaacgtactcggcttttgcgtcggtggcactatcgtgagcaccgctctggcggtactggctgcgcgtggtgaacaccccgcagcgtcggttacgcttctgaccacactgttggatttcgccgacactggcatcttggatgtatttgtcgatgagggccacgttcagctgcgcgaggccactctgggtggcggcgccggcgcaccgtgcgctctgctgcgcggtctggagctcgcgaatactttttctttcttacgcccgaacgatcttgtctggaattacgtagttgacaactatctcaaaggtaacacgcccgtgccgtttgatttattattctggaatggggatgcgaccaacctgccgggtccttggtattgttggtatctccgtcatacatacttacagaatgaattaaaggtcccaggtaaacttactgtgtgtggtgtcccggtagatctggcgagtatcgacgtgccgacctacatttatgggagtcgtgaagatcatattgtgccgtggaccgccgcgtacgcttctaccgcgcttctggcaaacaaattacgtttcgttctgggtgccagcggccacattgcgggtgttattaatcctccggccaaaaataaacgctcgcattggacaaacgacgccttgccggagagccctcagcagtggttggcgggtgccattgagcaccatggaagttggtggccggactggacagcctggctggcgggccaagcaggcgcaaaacgcgctgcgccagccaactatggcaacgcgcgctaccgcgcgattgaacccgcgcctggccgctatgtaaaagcaaaagcgtgacgcttgcatgagtgccggcgtgcgtcatgcacggcgccggcaggcctgcacgttccctcccgtttccattgaaaggactacacaatgaccgatgttgttatcgtcagtgccgcgcgcaccgccgtgggtaaatttggcggcagtctggcgaaaatcccggcgccagaattgggcgcggtggtaatcaaagcggccctggaacgcgccggtgtgaaacctgagcaggtgagcgaagtaattatgggtcaggttctgaccgcgggcagcgggcaaaatccggcgcgtcaggctgcgattaaggcaggccttccggcgatggtgcccgcgatgaccattaacaaagtatgcggatcgggactgaaagcagtgatgctggccgctaacgccattatggcaggcgacgcggaaattgtggtcgctggcggacaggagaatatgtcagccgcgcctcatgtgctgccgggtagccgcgacggctttcgcatgggtgatgcaaaactggtcgatactatgattgttgacggcttatgggatgtgtacaaccagtaccacatgggcatcaccgccgagaacgtggccaaggaatacggcatcacacgcgaggcgcaggatgagttcgccgtcggctcgcagaacaaggccgaagccgcgcagaaggccggcatgtttgacgaagagatcgtcccggtgctgatcccgcagcgcaagggcgacccggtggccttcaagaccgacgagttcgtgcgccagggcgccacgctggacagcatgtccggcctcaagcccgccttcgacaaggccggcacggtgaccgcggccaacgcctcgggcctgaacgacggcgccgccgcggtggtggtgatgtcggcggccaaggccaaggaactgggcctgaccccgctggccacgatcaagagctatgccaacgccggtgtcgatcccaaggtgatgggcatgggcccggtgccggcctccaagcgcgccctgtcgcgcgccgagtggaccccgcaagacctggacctgatggagatcaacgaggcctttgccgcgcaggcgctggcggtgcaccagcagatgggctgggacacctccaaggtcaatgtgaacggcggcgccatcgccatcggccacccgatcggcgcgtcgggctgccgtatcctggtgacgctgctgcacgagatgaagcgccgtgacgcgaagaagggcctggcctcgctgtgcatcggcggcggcatgggcgtggcgctggcagtcgagcgcaaataaggaaggggttttccggggccgcgcgcggttggcgcggacccggcgacgataacgaagccaatcaaggagtggacatgactcagcgcattgcgtatgtgaccggcggcatgggtggtatcggaaccgccatttgccagcggctggccaaggatggctttcgtgtggtggccggttgcggccccaactcgccgcgccgcgaaaagtggctggagcagcagaaggccctgggcttcgatttcattgcctcggaaggcaatgtggctgactgggactcgaccaagaccgcattcgacaaggtcaagtccgaggtcggcgaggttgatgtgctgatcaacaacgccggtatcacccgcgacgtggtgttccgcaagatgacccgcgccgactgggatgcggtgatcgacaccaacctgacctcgctgttcaacgtcaccaagcaggtgatcgacggcatggccgaccgtggctggggccgcatcgtcaacatctcgtcggtgaacgggcagaagggccagttcggccagaccaactactccaccgccaaggccggcctgcatggcttcaccatggcactggcgcaggaagtggcgaccaagggcgtgaccgtcaacacggtGtctccgggctatatcgccaccgacatggtcaaggcgatccgccaggacgtgctcgacaagatcgtcgcgacgatcccggtcaagcgcctgggcctgccggaagagatcgcctcgatctgcgcctggttgtcgtcggaggagtccggtttctcgaccggcgccgacttctcgctcaacggcggcctgcatatgggctgacctgcccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttataGCTTatgtcttctactagtagcggccgctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgagtcccgtcaagtcagcgtaatgctctgccagtgttacaaccaattaaccaattctgattagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaa |
 | BBa_K1149051 (IDT G-Block) | GTCAggtctcAGGAGttgacagctagctcagtcctaggtattgtgctagctactagagaaagaggagaaatactagaggattcccgcattgacagcgcgtgcgttgcaaggcaacaatggactcaaatgtctcggaatcgctgacgattcccaggtttctccggcaagcatagcgcatggcgtctccatgcgagaatgtcgcgcttgccggataaaaggggagccgctatcggaatggacgcaagccacggccgcagcaggtgcggtcgagggcttccagccagttccagggcagatgtgccggcagaccctcccgctttgggggaggcgcaagccgggtccattcggatagcatctccccatgcaaagtgccggccagggcaatgcccggagccggttcgaatagtgacggcagagagacaatcaaatcatggctactgggaaaggagccgccgccagcacccaggaaggcaaaagccaaccatttaaagtgaccccaggcccgttcgatcctgccacctggctggaatggtcacgtcaatggcaaggtacggagggcaacggccatgcggcagcgtccggcatccctgggcttgatgcactggctggtgttaaaattgcgcctgcccaattgggagacatccaacagcgttatatgaaagatttttcggcgctgtggcaggcgatggcggaaggtaaagcagaggcgacgggaccgctgcatgaccgtcgctttgctggcgacgcctggcgtaccaatttgccctatcgttttgcggcagccttctacctgctgaacgctcgtgccctgactgagctggcagatgctgtcgaagcggatgccaaaacccgccaacgcatccgttttgccatctcacagtgggtcgacgcaatgtcaccggccaacttcctggccaccaatccggaagcacagcgcctcctgattgaaagcggcggggaatcgctgcgcgccggcgttcgtaacatgatggaagatctgacccgtggtaagatttcgcagacggatgagtcggccttcgaggtgggtcgcaatgttgcagtgacagaaggcgcggtggtgtttgagaacgaatactttcaacttctccagtataaaccactgacggataaagtgcatgcgcgcccattgttaatggttcccccgtgcattaataaatactatatcctggatcttcagccggaaagctccttagtgcgccacgtggtggaacaggggcatactgtgtttttagttagctggcgcaatccagatgcctcaatggccggcagtacctgggatgactacattgaacacgcggctattcgcgcgatcgaagtggcacgcgacatctcaggtcaggacaagattaacgtactcggcttttgcgtcggtggcactatcgtgagcaccgctctggcggtactggctgcgcgtggtgaacaccccgcagcgtcggttacgcttctgaccacactgttggatttcgccgacactggcatcttggatgtatttgtcgatgagggccacgttcagctgcgcgaggccactctgggtggcggcgccggcgcaccgtgcgctctgctgcgcggtctggagctcgcgaatactttttctttcttacgcccgaacgatcttgtctggaattacgtagttgacaactatctcaaaggtaacacgcccgtgccgtttgatttattattctggaatggggatgcgaccaacctgccgggtccttggtattgttggtatctccgtcatacatacttacagaatgaattaaaggtcccaggtaaacttactgtgtgtggtgtcccggtagatctggcgagtatcgacgtgccgacctacatttatgggagtcgtgaagatcatattgtgccgtggaccgccgcgtacgcttctaccgcgcttctggcaaacaaattacgtttcgttctgggtgccagcggccacattgcgggtgttattaatcctccggccaaaaataaacgctcgcattggacaaacgacgccttgccggagagccctcagcagtggttggcgggtgccattgagcaccatggaagttggtggccggactggacagcctggctggcgggccaagcaggcgcaaaacgcgctgcgccagccaactatggcaacgcgcgctaccgcgcgattgaacccgcgcctggccgctatgtaaaagcaaaagcgtgacgcttgcatgagtgccggcgtgcgtcatgcacggcgccggcaggcctgcacgttccctcccgtttccattgaaaggactacacaatgaccgatgttgttatcgtcagtgccgcgcgcaccgccgtgggtaaatttggcggcagtctggcgaaaatcccggcgccagaattgggcgcggtggtaatcaaagcggccctggaacgcgccggtgtgaaacctgagcaggtgagcgaagtaattatgggtcaggttctgaccgcgggcagcgggcaaaatccggcgcgtcaggctgcgattaaggcaggccttccggcgatggtgcccgcgatgaccattaacaaagtatgcggatcgggactgaaagcagtgatgctggccgctaacgccattatggcaggcgacgcggaaattgtggtcgctggcggacaggagaatatgtcagccgcgcctcatgtgctgccgggtagccgcgacggctttcgcatgggtgatgcaaaactggtcgatactatgattgttgacggcttatgggatgtgtacaaccagtaccacatgggcatcaccgccgagaacgtggccaaggaatacggcatcacacgcgaggcgcaggatgagttcgccgtcggctcgcagaacaaggccgaagccgcgcagaaggccggcatgtttgacgaagagatcgtcccggtgctgatcccgcagcgcaagggcgacccggtggccttcaagaccgacgagttcgtgcgccagggcgccacgctggacagcatgtccggcctcaagcccgccttcgacaaggccggcacggtgaccgcggccaacgcctcgggcctgaacgacggcgccgccgcggtggtggtgatgtcggcggccaaggccaaggaactgggcctgaccccgctggccacgatcaagagctatgccaacgccggtgtcgatcccaaggtgatgggcatgggcccggtgccggcctccaagcgcgccctgtcgcgcgccgagtggaccccgcaagacctggacctgatggagatcaacgaggcctttgccgcgcaggcgctggcggtgcaccagcagatgggctgggacacctccaaggtcaatgtgaacggcggcgccatcgccatcggccacccgatcggcgcgtcgggctgccgtatcctggtgacgctgctgcacgagatgaagcgccgtgacgcgaagaagggcctggcctcgctgtgcatcggcggcggcatgggcgtggcgctggcagtcgagcgcaaataaggaaggggttttccggggccgcgcgcggttggcgcggacccggcgacgataacgaagccaatcaaggagtggacatgactcagcgcattgcgtatgtgaccggcggcatgggtggtatcggaaccgccatttgccagcggctggccaaggatggctttcgtgtggtggccggttgcggccccaactcgccgcgccgcgaaaagtggctggagcagcagaaggccctgggcttcgatttcattgcctcggaaggcaatgtggctgactgggactcgaccaagaccgcattcgacaaggtcaagtccgaggtcggcgaggttgatgtgctgatcaacaacgccggtatcacccgcgacgtggtgttccgcaagatgacccgcgccgactgggatgcggtgatcgacaccaacctgacctcgctgttcaacgtcaccaagcaggtgatcgacggcatggccgaccgtggctggggccgcatcgtcaacatctcgtcggtgaacgggcagaagggccagttcggccagaccaactactccaccgccaaggccggcctgcatggcttcaccatggcactggcgcaggaagtggcgaccaagggcgtgaccgtcaacacggtGtctccgggctatatcgccaccgacatggtcaaggcgatccgccaggacgtgctcgacaagatcgtcgcgacgatcccggtcaagcgcctgggcctgccggaagagatcgcctcgatctgcgcctggttgtcgtcggaggagtccggtttctcgaccggcgccgacttctcgctcaacggcggcctgcatatgggctgacctgcccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttataGCTTcgagaccGACG |
