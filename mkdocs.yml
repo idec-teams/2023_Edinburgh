@@ -32,6 +32,10 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - javascripts/tables.js
 
+  #For the pdf viewer
+  - https://github.com/mozilla/pdf.js
+  - javascripts/viewer.js
+
 edit_uri: blob/main/docs/
 
 repo_url: https://github.com/idec-teams/2023_Edinburgh

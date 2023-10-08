@@ -14,6 +14,6 @@ Conventional photovoltaic panels can only capture light energy but currently hav
 
 Consequently, we pursued increasing the biosynthesis of polyhydroxybutyrate (PHB) a thermoplastic polyester with excellent biodegradability that is capable of being degraded by various microorganisms living in soil and saltwater. PHB acts as a carbon sink, funnelling excess metabolic flux into its production whilst sequestering CO2. PHB is native to *Synechocystis sp* PCC. 6803 but is only expressed in small granules in small concentrations. By undergoing error prone PCR on phaB of the phaCAB operon involved in PHB biosynthesis we hoped to generate a mutant library for the rate-limiting step to increase PHB production in E.coli initially and then transfer to  *Synechocystis sp* PCC. 6803.
 
-While PHB was eventually dropped due to a shift in our narrative and project outlook, more information can still be found in the [PHB](https://idec-teams.github.io/2023_Edinburgh/project/phb/) section
+While PHB was eventually dropped due to a shift in our narrative and project outlook, more information can still be found in the [PHB](https://idec-teams.github.io/2023_Edinburgh/project/phb/) section. 
 
 

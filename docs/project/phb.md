@@ -32,6 +32,7 @@ To generate a mutant library for phaB, the rate-limiting gene involved in PHB bi
 | phaB Reverse | cagtGGTCTCtCAGGtcagcccatatgcaggccgcc |
 | phaCA Backbone Forward | catgGGTCTCtCTGAcctgcccaggcatcaaataa  |
 | phaCA Backbone Forward | cagtGGTCTCtTCATgtccactccttgattggctt  |
+
 *Table 1: primer sequences for phaCA and phaB*
 
 ## Results
