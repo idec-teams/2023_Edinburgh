@@ -7,7 +7,7 @@ theme:
 
   palette:
     primary: teal
-    accent: green
+    accent: blue grey
 
   features:
     - navigation.sections
