@@ -48,4 +48,5 @@ nav:
   - Documentation:
       - Protocols: documentation/protocols.md
       - Lab notebook: documentation/notebook.md
+      - Report: documentation/report.md
       - Supplementary Material: documentation/supplementary_material.md
