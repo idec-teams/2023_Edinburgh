@@ -1,0 +1,1316 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../project/phb/">
+      
+      
+        <link rel="next" href="../notebook/">
+      
+      
+      <link rel="icon" href="../../img/idec-wiki-logo.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.4">
+    
+    
+      
+        <title>Protocols - iDEC 2023 | Edinburgh</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bd3936ea.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="blue-grey">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#protocols" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="iDEC 2023 | Edinburgh" class="md-header__button md-logo" aria-label="iDEC 2023 | Edinburgh" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            iDEC 2023 | Edinburgh
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Protocols
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/idec-teams/2023_Edinburgh" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="iDEC 2023 | Edinburgh" class="md-nav__button md-logo" aria-label="iDEC 2023 | Edinburgh" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    iDEC 2023 | Edinburgh
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/idec-teams/2023_Edinburgh" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Project
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/background/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Background
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/results/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Results
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/phb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PHB
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Protocols
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Protocols
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#primer-sequences" class="md-nav__link">
+    Primer Sequences
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparation-of-nacl-lysogeny-broth-and-bl21-growth-curve" class="md-nav__link">
+    Preparation of NaCl Lysogeny Broth and BL21 Growth Curve
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparation-of-top10-and-bl21-competent-cells" class="md-nav__link">
+    Preparation of TOP10 and BL21 Competent cells
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pcr-extraction-of-ggps-from-synechocystis-sp-pcc-6803-genome" class="md-nav__link">
+    PCR Extraction of ggpS from synechocystis sp. PCC 6803 Genome
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyanogate-level-0-assembly" class="md-nav__link">
+    Cyanogate level 0 Assembly
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyanogate-level-1-assembly" class="md-nav__link">
+    Cyanogate level 1 Assembly
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyanogate-stpa-level-t-assembly" class="md-nav__link">
+    Cyanogate stpA level T Assembly
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plasmid-transformations" class="md-nav__link">
+    Plasmid transformations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#confirmation-of-plasmid-assembly-and-transformation-by-colony-pcr" class="md-nav__link">
+    Confirmation of Plasmid Assembly and Transformation by Colony PCR
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jump-level-1-assembly" class="md-nav__link">
+    JUMP Level 1 Assembly
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-prone-pcr" class="md-nav__link">
+    Error Prone PCR
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notebook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lab notebook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../report/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../supplementary_material/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supplementary Material
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#primer-sequences" class="md-nav__link">
+    Primer Sequences
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparation-of-nacl-lysogeny-broth-and-bl21-growth-curve" class="md-nav__link">
+    Preparation of NaCl Lysogeny Broth and BL21 Growth Curve
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparation-of-top10-and-bl21-competent-cells" class="md-nav__link">
+    Preparation of TOP10 and BL21 Competent cells
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pcr-extraction-of-ggps-from-synechocystis-sp-pcc-6803-genome" class="md-nav__link">
+    PCR Extraction of ggpS from synechocystis sp. PCC 6803 Genome
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyanogate-level-0-assembly" class="md-nav__link">
+    Cyanogate level 0 Assembly
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyanogate-level-1-assembly" class="md-nav__link">
+    Cyanogate level 1 Assembly
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyanogate-stpa-level-t-assembly" class="md-nav__link">
+    Cyanogate stpA level T Assembly
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plasmid-transformations" class="md-nav__link">
+    Plasmid transformations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#confirmation-of-plasmid-assembly-and-transformation-by-colony-pcr" class="md-nav__link">
+    Confirmation of Plasmid Assembly and Transformation by Colony PCR
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jump-level-1-assembly" class="md-nav__link">
+    JUMP Level 1 Assembly
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-prone-pcr" class="md-nav__link">
+    Error Prone PCR
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="protocols">Protocols</h1>
+<h2 id="primer-sequences">Primer Sequences</h2>
+<table>
+<thead>
+<tr>
+<th>Primer</th>
+<th></th>
+<th>Sequence (5’--&gt; 3’)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Genomic Forward</td>
+<td>GF</td>
+<td>CAGTGAAGACATAATGAATTCATCCCTTGTGATCC</td>
+</tr>
+<tr>
+<td>Genomic Reverse</td>
+<td>GR</td>
+<td>CAGTGAAGACATAAGCATTGGCGATCGCCTACAT</td>
+</tr>
+<tr>
+<td>Level 0 Forward</td>
+<td>L0F</td>
+<td>TTGAGTGAGCTGATACCGCT</td>
+</tr>
+<tr>
+<td>Level 0 Reverse</td>
+<td>L0R</td>
+<td>GTCTCATGAGCGGATACATATTTGAATG</td>
+</tr>
+<tr>
+<td>Level 1 Forward</td>
+<td>L1F</td>
+<td>GAACCCTGTGGTTGGCATGCACATAC</td>
+</tr>
+<tr>
+<td>Level 1 Reverse</td>
+<td>L1R</td>
+<td>CTGGTGGCAGGATATATTGTGGTG</td>
+</tr>
+<tr>
+<td>Level T Forward</td>
+<td>LTF</td>
+<td>TAGTGAGTGGGTTGCGCTC</td>
+</tr>
+<tr>
+<td>Level T Reverse</td>
+<td>LTR</td>
+<td>GTTACCACCGCTGCGTTC</td>
+</tr>
+<tr>
+<td>P1 Primer</td>
+<td>P1</td>
+<td>AGGGCGGCGGATTTGTCC</td>
+</tr>
+<tr>
+<td>P2 Primer</td>
+<td>P2</td>
+<td>GCGGCAACCGAGCGTTC</td>
+</tr>
+</tbody>
+</table>
+<h2 id="preparation-of-nacl-lysogeny-broth-and-bl21-growth-curve">Preparation of NaCl Lysogeny Broth and BL21 Growth Curve</h2>
+<ol>
+<li>Prepare Sterile 34% (w/v) Saline stock solution</li>
+<li>Add Saline solution in increasing amounts to LB to a falcon tube to create medium of varying salt concentrations and then inoculate with 1ml of overnight culture BL21 using the table below:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Concentration of NaCl in LB media (w/v)</th>
+<th>Volume of 34% Saline Solution (mL)</th>
+<th>Volume of LB media (mL)</th>
+<th>Volume of BL21 in LB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5%</td>
+<td>0</td>
+<td>29</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1%</td>
+<td>0.441</td>
+<td>28.559</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1.5%</td>
+<td>0.882</td>
+<td>28.118</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2%</td>
+<td>1.323</td>
+<td>27.677</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2.5%</td>
+<td>1.764</td>
+<td>27.236</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3%</td>
+<td>2.205</td>
+<td>26.795</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3.5%</td>
+<td>2.646</td>
+<td>26.354</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4%</td>
+<td>3.087</td>
+<td>25.913</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4.5%</td>
+<td>3.528</td>
+<td>25.472</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5%</td>
+<td>3.969</td>
+<td>25.031</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5.5%</td>
+<td>4.380</td>
+<td>24.590</td>
+<td>1</td>
+</tr>
+<tr>
+<td>6%</td>
+<td>4.821</td>
+<td>24.149</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Take an initial OD600 from each of the cultures</li>
+<li>Incubate the cultures at 37°C 250rpm </li>
+<li>Take a 1ml sample every hour and record the OD600 of each culture. If the OD600 of a culture is significantly more than 1, dilute the sample and measure the OD600.</li>
+</ol>
+<h2 id="preparation-of-top10-and-bl21-competent-cells">Preparation of TOP10 and BL21 Competent cells</h2>
+<ol>
+<li>Pick a single colony of TOP10 or BL21 and inoculate 10ml LB before culturing overnight at 37°C 250rpm</li>
+<li>Inoculate 100ml of LB with 1ml of this overnight culture </li>
+<li>Incubate at 37°C 200rpm until the OD600 is between 0.3 and 0.6</li>
+<li>Transfer equal volumes of the media into 2x 50ml falcon tubes and leave on ice for 30 minutes</li>
+<li>Centrifuge at 4000g at 4°C for 5 minutes</li>
+<li>Pour off the supernatant and gently resuspend the pellet in 25ml ice cold 0.1M MgCl2</li>
+<li>Incubate on ice for 30 minutes</li>
+<li>Centrifuge at 4000g at 4°C for 5 minutes</li>
+<li>Pour off the supernatant and gently resuspend the pellet in 25ml ice cold 0.1M CaCl2</li>
+<li>Incubate on ice for 30 minutes</li>
+<li>Centrifuge at 4000g at 4°C for 5 minutes</li>
+<li>Pour off the supernatant and gently resuspend the pellet in 1.25ml ice cold 0.1M CaCl2/Glycerol solution (1.7ml 0.1M CaCl2, 0.3ml 100% Glycerol)</li>
+<li>Aliquot 100 μl and flash freeze on dry ice or on liquid nitrogen before storing at -80°C</li>
+</ol>
+<h2 id="pcr-extraction-of-ggps-from-synechocystis-sp-pcc-6803-genome">PCR Extraction of ggpS from synechocystis sp. PCC 6803 Genome</h2>
+<ol>
+<li>Centrifuge 200μl of synechocystis culture In a microcentrifuge at 13,000rpm for 1 minute.</li>
+<li>Drain the supernatant and resuspend the pellet in 200μl double distilled water.</li>
+<li>Transfer 20μl of this to a PCR tube and freeze at -20°C for 10 minutes to lyse the cells.</li>
+<li>Create a reacton mix using the following:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Reaction Component</th>
+<th>Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5x Q5 Reaction Buffer</td>
+<td>5μl</td>
+</tr>
+<tr>
+<td>10mM dNTP mix</td>
+<td>0.5μl</td>
+</tr>
+<tr>
+<td>10μM GF Primer</td>
+<td>1.25μl</td>
+</tr>
+<tr>
+<td>10μM GR Primer</td>
+<td>1.25μl</td>
+</tr>
+<tr>
+<td>Lysed Synechocystis</td>
+<td>10μl</td>
+</tr>
+<tr>
+<td>Q5 Polymerase (Add Last)</td>
+<td>0.25μl</td>
+</tr>
+<tr>
+<td>ddH2O</td>
+<td>6.75μl</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Run the PCR reaction with the thermocycler set to run an initial denaturation of 98°C for 30 seconds followed by 35 cycles of 98°C  for 10 seconds, 66°C for 30 seconds and 72°C for 30 seconds before a final extension at 72°C for 2 minutes and hold the reaction at 4°C.</li>
+<li>Make a 1% Agarose Gel and run the reaction product using Gel electrophoresis.</li>
+<li>Extract the product of the correct size using the QI-Aquick gel extraction kit (Qiagen)</li>
+</ol>
+<h2 id="cyanogate-level-0-assembly">Cyanogate level 0 Assembly</h2>
+<ol>
+<li>Create a reaction mix in a PCR tube with the following components:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Reaction Component</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ggpS gene insert</td>
+<td>200 ng</td>
+</tr>
+<tr>
+<td>PICH41308 acceptor vector</td>
+<td>100 ng</td>
+</tr>
+<tr>
+<td>10x T4 ligase buffer</td>
+<td>2μl</td>
+</tr>
+<tr>
+<td>bbsI-HF</td>
+<td>1μl</td>
+</tr>
+<tr>
+<td>T4 Ligase - HF</td>
+<td>1μl</td>
+</tr>
+<tr>
+<td>ddH2O</td>
+<td>Fill to 20μl</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Set the Thermocycler to run in the following cycles: 15 cycles of 10 minutes at 37°C then 10 minutes at 16°C followed by one cycle at 37°C for 20 minutes and one cycle at 65°C for 10 minutes and hold at 16°C.</li>
+</ol>
+<h2 id="cyanogate-level-1-assembly">Cyanogate level 1 Assembly</h2>
+<ol>
+<li>Create a reaction mix in a PCR tube with the following components:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Reaction Component</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ggpS level 0</td>
+<td>200 ng</td>
+</tr>
+<tr>
+<td>PTRC10 Promoter level 0</td>
+<td>200 ng</td>
+</tr>
+<tr>
+<td>pC0.082 terminator level 0</td>
+<td>200 ng</td>
+</tr>
+<tr>
+<td>pICH47732 acceptor vector</td>
+<td>100 ng</td>
+</tr>
+<tr>
+<td>10x T4 ligase buffer</td>
+<td>2μl</td>
+</tr>
+<tr>
+<td>Bovine Serum Albumin</td>
+<td>2μl</td>
+</tr>
+<tr>
+<td>BsaI-HF</td>
+<td>1μl</td>
+</tr>
+<tr>
+<td>T4 Ligase - HF</td>
+<td>1μl</td>
+</tr>
+<tr>
+<td>ddH2O</td>
+<td>Fill to 20μl</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Set the Thermocycler to run in the following cycles: 15 cycles of 10 minutes at 37°C then 10 minutes at 16°C followed by one cycle at 37°C for 20 minutes and one cycle at 65°C for 10 minutes and hold at 16°C.</li>
+</ol>
+<h2 id="cyanogate-stpa-level-t-assembly">Cyanogate stpA level T Assembly</h2>
+<ol>
+<li>Create a reaction mix in a PCR tube with the following components:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Reaction Component</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stpA Gene block</td>
+<td>200 ng</td>
+</tr>
+<tr>
+<td>pSEVA421 acceptor vector</td>
+<td>100 ng</td>
+</tr>
+<tr>
+<td>10x T4 ligase buffer</td>
+<td>2μl</td>
+</tr>
+<tr>
+<td>Bovine Serum Albumin</td>
+<td>2μl</td>
+</tr>
+<tr>
+<td>BbsI-HF</td>
+<td>1μl</td>
+</tr>
+<tr>
+<td>T4 Ligase - HF</td>
+<td>1μl</td>
+</tr>
+<tr>
+<td>ddH2O</td>
+<td>Fill to 20μl</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Set the Thermocycler to run in the following cycles: 15 cycles of 10 minutes at 37°C then 10 minutes at 16°C followed by one cycle at 37°C for 20 minutes and one cycle at 65°C for 10 minutes and hold at 16°C.</li>
+</ol>
+<h2 id="plasmid-transformations">Plasmid transformations</h2>
+<ol>
+<li>Make 50μl aliquots of BL21 or TOP10 cells</li>
+<li>Add 5μl of assembly reaction mix or 1μl of plasmid miniprep </li>
+<li>Incubate these cells on ice for 30 minutes </li>
+<li>In a water bath, heat shock the cells at 42°C for 30 seconds </li>
+<li>Return the cells to ice for 2 minutes</li>
+<li>Add 450μl SOC media and incubate the cells at 37°C 200rpm for 1 hour</li>
+<li>Spread 50μl of the incubated cells on a plate with the correct antibiotic and for cyanogate containing IPTG and X-GAL for blue/white selection</li>
+<li>Spin the remaining cells at 6000rpm for 1 minute in a microcentrifuge</li>
+<li>Without disturbing the pellet remove the supernatant leaving 50μl of media behind</li>
+<li>Resuspend the pellet in the remining media</li>
+<li>Spread the remaining cells onto another LB agar plate as before.</li>
+<li>Incubate the cells overnight at 37°C</li>
+</ol>
+<h2 id="confirmation-of-plasmid-assembly-and-transformation-by-colony-pcr">Confirmation of Plasmid Assembly and Transformation by Colony PCR</h2>
+<ol>
+<li>Check the plates from the overnight culture. Colonies for cyanogate will have blue/white selection and colonies with the lacZ gene transformed will appear as white. For a JUMP assembly expose the plate to UV and the colonies will fluoresce if transformed with the GFP gene.</li>
+<li>Pick these white or fluorescent colonies and resuspend them in 50μL ddH20 in a PCR tube.</li>
+<li>Take 40ml of this and inoculate 1ml LB with this to create a stock of that colony </li>
+<li>Freeze the remaining 10μl in the PCR tube at -20°C for 10 minutes</li>
+<li>Create a reaction mix in a PCR tube with the following components:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Reaction Component</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lysed Cells</td>
+<td>10μl</td>
+</tr>
+<tr>
+<td>5x Green GoTaq Buffer</td>
+<td>5μl</td>
+</tr>
+<tr>
+<td>10mM dNTP mix</td>
+<td>0.5μl</td>
+</tr>
+<tr>
+<td>10μM Forward Primer</td>
+<td>2μl</td>
+</tr>
+<tr>
+<td>10μM Reverse Primer</td>
+<td>2μl</td>
+</tr>
+<tr>
+<td>GoTaq G2 DNA Polymerase</td>
+<td>0.125μl</td>
+</tr>
+<tr>
+<td>ddH2O</td>
+<td>Fill to 25μl</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Set the thermocycler to run the following cycles: Initial denaturation step of 95°C for 2 minutes and then 35 cycles of 95°C for 1 minute, annealing at 42-65°C depending on the primer and an extension at 72°C for 2 minutes (1Min/Kb) with a final extension of 72°C for 5 minutes and finally hold at 4°C.</li>
+<li>Take the PCR product and run on 1% Agarose gel by gel electrophoresis and use a UV imager to image the bands on the gel, confirming bands of the expected size.</li>
+</ol>
+<h2 id="jump-level-1-assembly">JUMP Level 1 Assembly</h2>
+<ol>
+<li>Create a reaction mix in a PCR tube with the following components:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Reaction Component</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ggpS epPCR digest (20fmol/μl)</td>
+<td>1μl</td>
+</tr>
+<tr>
+<td>pJUMP29-1A acceptor vector (20fmol/μl)</td>
+<td>1μl</td>
+</tr>
+<tr>
+<td>PJ23100 Promoter in level 0 (20fmol/μl)</td>
+<td>1μl</td>
+</tr>
+<tr>
+<td>L3SAP51 terminator in level 0 (20fmol/μl)</td>
+<td>1μl</td>
+</tr>
+<tr>
+<td>pET Ribosome Binding Site in level 0 (20fmol/μl)</td>
+<td>1μl</td>
+</tr>
+<tr>
+<td>T4 DNA ligase - HF</td>
+<td>0.25μl</td>
+</tr>
+<tr>
+<td>BsaI-HF</td>
+<td>1μl</td>
+</tr>
+<tr>
+<td>T4 Ligase Buffer</td>
+<td>2μl</td>
+</tr>
+<tr>
+<td>ddH2O</td>
+<td>Fill to 20μl</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Set the Thermocycler to run in the following cycles: 1 cycle at 37°C for 15 minutes then 25 cycles at 37°C for 3 minutes and 16°C for 3 minutes. Then 1 cycle of 37°C for 15 minutes, 50°C for 5 minutes and 80°C for 5 minutes before a further 25 cycles of 37°C for 3 minutes and 16°C for 3 minutes and 1 cycle of  37°C for 15 minutes, 50°C for 5 minutes and 80°C for 5 minutes and finally hold the reaction at 4°C.</li>
+</ol>
+<h2 id="error-prone-pcr">Error Prone PCR</h2>
+<ol>
+<li>Create a reaction mix in a PCR tube with the following components: </li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Reaction Component</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10x NEB Taq DNA polymerase Thermopol buffer</td>
+<td>5μl</td>
+</tr>
+<tr>
+<td>Genomic Forward Primer</td>
+<td>1μl</td>
+</tr>
+<tr>
+<td>Genomic Reverse Primer</td>
+<td>1μl</td>
+</tr>
+<tr>
+<td>Taq polymerase</td>
+<td>0.5μl</td>
+</tr>
+<tr>
+<td>ggpS Level 0 Template DNA</td>
+<td>50ng</td>
+</tr>
+<tr>
+<td>MgCl2</td>
+<td>2.95mM</td>
+</tr>
+<tr>
+<td>MnCl2</td>
+<td>0.1mM</td>
+</tr>
+<tr>
+<td>ddH2O</td>
+<td>Fill to 50μl</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Set the thermocycler to have an initial denaturation at 95°C for 1 minute, 25 Cycles of 30 seconds at 95°C, 45 seconds at 53°C and 90 seconds at 68°C, a final elongation at 68°C for 5 minutes and hold at 4°C</li>
+<li>Puridy the product with the Monarch DNA Gel Extraction kit (New England Biolabs) and store at -20°C</li>
+</ol>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 iDEC. CC-BY-4.0 | The International Directed Evolution Competition (iDEC) is a Scottish Charitable Incorporate Organisation (SCIO), registered in Scotland, with charity number：SC050826
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.94c44541.min.js"></script>
+      
+        <script src="../../javascripts/config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tables.js"></script>
+      
+    
+  </body>
+</html>
