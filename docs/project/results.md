@@ -8,7 +8,7 @@ In order to determine the level of growth and salt tolerance in Escherichia coli
 
 *Figure 1 - 6 hour Growth Curve of BL21 (DE3) Cells In LB Media of Varying Salt Concentrations. 1% Salt LB was removed due to likely error in protocol effecting results. LB media containing various salt concentrations were inoculated with BL21 (DE3) Overnight culture and the OD600 was measured every hour to measure the growth of the Escherichia coli.*
 
-The Effect Salt Concentration on *E coli.* Doubling Times
+**The Effect Salt Concentration on *E coli.* Doubling Times**
 
 | Lysogeny Broth Salt Concentration (%) | Doubling Time at 6 Hours (Hours) | 
 | --- | --- | 

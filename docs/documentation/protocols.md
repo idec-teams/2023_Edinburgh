@@ -2,7 +2,7 @@
 
 ## Primer Sequences 
 
-| Primer              | x | Sequence (5’--> 3’)                              |
+| Primer              |   | Sequence (5’--> 3’)                              |
 | ------------------- | - | ------------------------------------------------ |
 | Genomic Forward     | GF| CAGTGAAGACATAATGAATTCATCCCTTGTGATCC             |
 | Genomic Reverse     | GR| CAGTGAAGACATAAGCATTGGCGATCGCCTACAT             |
