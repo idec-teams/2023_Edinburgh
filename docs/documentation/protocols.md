@@ -12,8 +12,8 @@
 | Level 1 Reverse     | L1R| CTGGTGGCAGGATATATTGTGGTG                         |
 | Level T Forward     | LTF| TAGTGAGTGGGTTGCGCTC                             |
 | Level T Reverse     | LTR| GTTACCACCGCTGCGTTC                             |
-| P1 Primer           | P1|                                                  |
-| P2 Primer           | P2|                                                  |
+| P1 Primer           | P1|  AGGGCGGCGGATTTGTCC                           |
+| P2 Primer           | P2|  GCGGCAACCGAGCGTTC                              |
 
 ## Preparation of NaCl Lysogeny Broth and BL21 Growth Curve
 
